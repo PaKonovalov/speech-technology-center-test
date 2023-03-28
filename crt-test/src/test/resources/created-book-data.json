@@ -1,0 +1,9 @@
+{
+  "book": {
+    "author": "Молодая гваридия",
+    "id": 3,
+    "isElectronicBook": true,
+    "name": "Игральные вечера",
+    "year": 1931
+  }
+}

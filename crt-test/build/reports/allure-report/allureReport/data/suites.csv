@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 28 11:02:21 MSK 2023","Tue Mar 28 11:02:21 MSK 2023","81","","library.api.tests.GetBookByIdTest","","library.api.tests.GetBookByIdTest","getBookById","Получить книгу по её Id",""
+"passed","Tue Mar 28 11:02:21 MSK 2023","Tue Mar 28 11:02:21 MSK 2023","95","","library.api.tests.DeleteBookTest","","library.api.tests.DeleteBookTest","deleteBookFromLibrary","Удалить книгу из библиотеки",""
+"passed","Tue Mar 28 11:02:21 MSK 2023","Tue Mar 28 11:02:21 MSK 2023","182","","library.api.tests.GetAllBooksTest","","library.api.tests.GetAllBooksTest","getAllBooks","Получение всех книг из библиотеки",""
+"passed","Tue Mar 28 11:02:21 MSK 2023","Tue Mar 28 11:02:21 MSK 2023","201","","library.api.tests.ChangeBookTest","","library.api.tests.ChangeBookTest","updateBook","Обновить информацию о книге по её id",""
+"passed","Tue Mar 28 11:02:01 MSK 2023","Tue Mar 28 11:02:19 MSK 2023","18092","","library.api.tests.AddBookToLibraryTest","","library.api.tests.AddBookToLibraryTest","addNewBook","Добавить книгу в библиотеку",""

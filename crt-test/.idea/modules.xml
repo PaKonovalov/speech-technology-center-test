@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProjects.crt-test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProjects.crt-test.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crt-test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/crt-test.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.crt-test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.crt-test.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/speech-technology-center-test.crt-test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/speech-technology-center-test.crt-test.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,188 @@
+Request method:	POST
+.Request URI:	http://localhost:5000/api/books
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+1    "author": "Молодая гваридия",
+    "id": 0,
+    "isElectronicBook": true,
+/    "name": "Игральные вечера",
+    "year": 1931
+}
+HTTP/1.1 201 CREATED
+&Server: Werkzeug/2.2.2 Python/3.8.16
+%Date: Tue, 28 Mar 2023 08:15:42 GMT
+ Content-Type: application/json
+Content-Length: 258
+Connection: close
+
+{
+    "book": {
+5        "author": "Молодая гваридия",
+        "id": 3,
+"        "isElectronicBook": true,
+3        "name": "Игральные вечера",
+        "year": 1931
+    }
+}
+Request method:	PUT
+0Request URI:	http://localhost:5000/api/books/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+1    "author": "Молодая гваридия",
+    "id": 3,
+    "isElectronicBook": false,
+/    "name": "Игральные вечера",
+    "year": 1930
+}
+HTTP/1.1 200 OK
+&Server: Werkzeug/2.2.2 Python/3.8.16
+%Date: Tue, 28 Mar 2023 08:15:44 GMT
+ Content-Type: application/json
+Content-Length: 259
+Connection: close
+
+{
+    "book": {
+5        "author": "Молодая гваридия",
+        "id": 3,
+#        "isElectronicBook": false,
+3        "name": "Игральные вечера",
+        "year": 1930
+    }
+}
+Request method:	DELETE
+0Request URI:	http://localhost:5000/api/books/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+&Server: Werkzeug/2.2.2 Python/3.8.16
+%Date: Tue, 28 Mar 2023 08:15:44 GMT
+ Content-Type: application/json
+Content-Length: 16
+Connection: close
+
+{
+    "result": true
+}
+Request method:	GET
+.Request URI:	http://localhost:5000/api/books
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+&Server: Werkzeug/2.2.2 Python/3.8.16
+%Date: Tue, 28 Mar 2023 08:15:45 GMT
+ Content-Type: application/json
+Content-Length: 595
+Connection: close
+
+{
+    "books": [
+
+        {
+3            "author": "Роберт Мартин",
+            "id": 1,
+'            "isElectronicBook": false,
++            "name": "Чистый код",
+            "year": 1998
+        },
+
+        {
+R            "author": "Томас Кормен, Чарльз Лейзерсон",
+            "id": 2,
+&            "isElectronicBook": true,
+P            "name": "Алгоритмы: построение и анализ",
+            "year": 1989
+
+        }
+    ]
+}
+
+	Request method:	GET
+
+	0Request URI:	http://localhost:5000/api/books/1
+
+	Proxy:			<none>
+
+	Request params:	<none>
+
+	Query params:	<none>
+
+	Form params:	<none>
+
+	Path params:	<none>
+
+	Headers:		Accept=*/*
+
+	#				Content-Type=application/json
+
+	Cookies:		<none>
+
+	Multiparts:		<none>
+
+	Body:			<none>
+
+	HTTP/1.1 200 OK
+
+	&Server: Werkzeug/2.2.2 Python/3.8.16
+
+	%Date: Tue, 28 Mar 2023 08:15:45 GMT
+
+	 Content-Type: application/json
+
+	Content-Length: 205
+
+	Connection: close
+
+	
+
+	{
+
+	    "book": {
+
+	/        "author": "Роберт Мартин",
+
+	        "id": 1,
+
+	#        "isElectronicBook": false,
+
+	'        "name": "Чистый код",
+
+	        "year": 1998
+
+	    }
+
+	}

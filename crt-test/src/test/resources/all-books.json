@@ -1,0 +1,18 @@
+{
+  "books": [
+    {
+      "author": "Роберт Мартин",
+      "id": 1,
+      "isElectronicBook": false,
+      "name": "Чистый код",
+      "year": 1998
+    },
+    {
+      "author": "Томас Кормен, Чарльз Лейзерсон",
+      "id": 2,
+      "isElectronicBook": true,
+      "name": "Алгоритмы: построение и анализ",
+      "year": 1989
+    }
+  ]
+}

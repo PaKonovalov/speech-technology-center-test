@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="library.api.tests.GetAllBooksTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-28T08:15:44" hostname="DESKTOP-CG832U9" time="0.294">
+  <properties/>
+  <testcase name="Получение всех книг из библиотеки" classname="library.api.tests.GetAllBooksTest" time="0.294"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:5000/api/books
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Werkzeug/2.2.2 Python/3.8.16
+Date: Tue, 28 Mar 2023 08:15:45 GMT
+Content-Type: application/json
+Content-Length: 595
+Connection: close
+
+{
+    "books": [
+        {
+            "author": "Роберт Мартин",
+            "id": 1,
+            "isElectronicBook": false,
+            "name": "Чистый код",
+            "year": 1998
+        },
+        {
+            "author": "Томас Кормен, Чарльз Лейзерсон",
+            "id": 2,
+            "isElectronicBook": true,
+            "name": "Алгоритмы: построение и анализ",
+            "year": 1989
+        }
+    ]
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

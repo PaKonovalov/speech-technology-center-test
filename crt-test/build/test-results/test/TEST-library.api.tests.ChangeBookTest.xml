@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="library.api.tests.ChangeBookTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-28T08:15:44" hostname="DESKTOP-CG832U9" time="0.181">
+  <properties/>
+  <testcase name="Обновить информацию о книге по её id" classname="library.api.tests.ChangeBookTest" time="0.181"/>
+  <system-out><![CDATA[Request method:	PUT
+Request URI:	http://localhost:5000/api/books/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "author": "Молодая гваридия",
+    "id": 3,
+    "isElectronicBook": false,
+    "name": "Игральные вечера",
+    "year": 1930
+}
+HTTP/1.1 200 OK
+Server: Werkzeug/2.2.2 Python/3.8.16
+Date: Tue, 28 Mar 2023 08:15:44 GMT
+Content-Type: application/json
+Content-Length: 259
+Connection: close
+
+{
+    "book": {
+        "author": "Молодая гваридия",
+        "id": 3,
+        "isElectronicBook": false,
+        "name": "Игральные вечера",
+        "year": 1930
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
